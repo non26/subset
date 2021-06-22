@@ -1,5 +1,5 @@
 ## Subset
-if we have the set (Math's term) of integer (list, in python) such as [1,2,3,4] called **super set**, the number of subset will be 2<sup>len([1,2,3,4])</sup>, and each subset will have either 1, 2, 3, or 4 elements, and each element is ele
+if we have the set (Math's term) of integer (list, in python) such as [1,2,3,4] called **super set**, the number of subset will be 2<sup>len([1,2,3,4])</sup>, and each subset will have either 1, 2, 3, or 4 elements, and each element is in the super set
 ## Idea of finding sub set
 we'll use the index of super set instead of its value to find all sub set and then match back to the value of super set
 - in case of 2 element ( the other n elements will use the same idea)
